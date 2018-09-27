@@ -1,0 +1,30 @@
+.center2{
+    width: 85%;
+    height: 160px;
+    padding: 37px 7.5% 20px;
+    background: #fff;
+    display: block;
+    overflow: hidden;
+}
+.center2 .cen2Inner{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.center2 .cen2Inner img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.center2 .cen2Inner p{
+   text-align: center;
+   line-height: 30px;
+}
+.center2 .cen2Inner:hover img{
+    width: 105px;
+    height: 105px;
+} 
+.center2 .cen2Inner:hover p{
+    color:#77b4ed;
+} 

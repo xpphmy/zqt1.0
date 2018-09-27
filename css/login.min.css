@@ -1,0 +1,105 @@
+html{height:100%}
+body.signin{
+    height:auto;background:url(../images/login-background.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color:#53a7ea;
+    behavior: url(../css/PIE.htc);
+}
+.signinpanel{
+    width:750px;margin:10% auto 0;
+}
+.signinpanel .logopanel{
+    float:none;width:auto;padding:0;background:0 0
+}
+.signinpanel .signin-info ul{
+    list-style:none;padding:0;margin:20px 0;
+}
+.signinpanel .form-control{
+    display:block;margin-top:10px;
+}
+.signinpanel .uname{
+    background:#fff url(../images/user.png) no-repeat 95% center;
+    color:#333;
+}
+.signinpanel .pword{
+    background:#fff url(../images/locked.png) no-repeat 95% center;
+    color:#333;
+}
+.signinpanel .btn{
+    height: 35px;
+    margin-top:10px;
+}
+.signinpanel form{
+    background:rgba(255,255,255,.2);
+    border:1px solid rgba(255,255,255,.3);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff,endColorstr=#33ffffff);
+    -moz-box-shadow:0 3px 0 rgba(12,12,12,.03);
+    -webkit-box-shadow:0 3px 0 rgba(12,12,12,.03);
+    box-shadow:0 3px 0 rgba(12,12,12,.03);
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    padding:15px;
+    behavior: url(../css/PIE.htc);
+}
+.signup-footer{
+    border-top:solid 1px #53a7ea;
+    margin:15px 0;
+    padding-top:10px;
+}
+.col-sm-7{
+    width: 350px!important;
+    float: left;
+}
+.col-sm-5{
+    width: 350px!important;
+    float:right;
+    
+}
+.col-sm-5 form{
+    border:1px solid #fff;
+    background: rgba(255,255,255,0.1);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19ffffff,endColorstr=#19ffffff);
+}
+@media screen and (max-width:780px){
+    .signinpanel,.signuppanel{
+        margin:0 auto;
+        width:420px!important;
+        padding:20px;
+    }
+    .row .col-sm-7{
+        width: 100%!important;
+        float: none;
+    }
+    .row .col-sm-5{
+        width: 100%!important;
+        float:none;
+    }
+@media screen and (max-width:420px){
+    .signinpanel,.signuppanel{
+        margin:0 auto;
+        padding: 0 20px 0;
+        width:100% !important;
+    }
+    .signinpanel form{margin-top:5px}
+    .signup-footer,.signuppanel .form-control{
+        margin-bottom:0px;
+    }
+    .signup-footer .pull-left,.signup-footer .pull-right{
+        float:none!important;text-align:center;
+    }
+    .signinpanel .signin-info ul{display:none}
+}
+@media screen and (max-width:320px){
+    .signinpanel,.signuppanel{margin:0;width:auto}
+}
+.m-t-md{
+    margin-top: 5px;
+}
+.logopanel h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}

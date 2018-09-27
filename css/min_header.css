@@ -1,0 +1,188 @@
+*{
+    margin: 0 ;padding: 0;border:none;font-family: Microsoft YaHei;
+}
+body,html{
+    width: 100%;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;-webkit-overflow-scrolling:touch;/*ios */
+    -webkit-font-smoothing:antialiased; /* //mac*/
+    border:none; 
+    font-size: 16px;
+    font-family: "Microsoft Yahei", "微软雅黑", arial;
+    /* background:rgb(235, 242, 255); */
+}
+body:hover{border:none;}
+a{  
+    text-decoration: none;
+    color: #000;   
+}
+a:focus{outline:none;}
+ul,li{
+    list-style: none;
+}
+
+.center{
+    width: 1100px;
+    margin: 0 auto;
+ }
+ .center ul{
+     width: 1000px;
+     height: 55px;
+     background:#3f7bc3;
+     margin: 130px auto 0;
+     padding:0 50px;  
+ }
+ .center li{
+     width: 150px;
+     float: left;
+     padding: 0;
+     height: 55px;
+    text-indent: 47px;
+     line-height:55px;
+     background-position: 10px 12px;
+     background-repeat: no-repeat;
+ }
+ .center li:nth-child(1){
+     width: 90px;
+ }
+ .center li a{
+     width: 100%;
+     height: 100%;
+     display: block;
+     color: #fff;
+     font-size: 18px;
+ }
+.box .center li:nth-child(1){
+    background-image: url(../images/1-1.png);
+}
+.box .center li:nth-child(2){
+    background-image: url(../images/1-2.png);    
+}
+.box .center li:nth-child(3){
+    background-image: url(../images/1-3.png);
+}
+.box .center li:nth-child(4){
+    background-image: url(../images/1-4.png);
+}
+.box .center li:nth-child(5){
+    background-image: url(../images/1-5.png);
+}
+.box .center li:nth-child(6){
+    background-image: url(../images/1-6.png);
+}
+.box .center li:nth-child(7){
+    background-image: url(../images/1-7.png);
+}
+ .center li:hover{
+    font-weight: 600;
+ }
+ .center .centerLi{
+     background-color: #fff;
+ }
+ .center .centerLi a{ 
+    color: #3f7bc3;
+    font-weight: 600; 
+}
+
+ /* footer */
+ .footer{
+     width: 100%;
+     height: 130px;
+     background: #d9d9d9;
+     position: absolute;bottom:0;
+ }
+ .footer .footerInner{
+     width: 1100px;
+     height: 100%;
+     margin: 0 auto;
+     overflow: hidden;
+ }
+ .footer .footerLeft{
+     margin-top: 5px;
+     width: 110px;
+     height: 110px;
+     float: left;
+ }
+ .footer .footerLeft img{
+     width: 110px;
+     height: 110px;
+     display: block;
+     margin: 5px auto;
+     font-size: 15px;
+ }
+ .footer .footerRight{
+     margin:20px 0 0 50px; 
+     float: left;
+ }
+ .footer .footerRight p{
+     line-height: 30px;
+     color: #666;
+ }
+
+#slides{
+    width: 100%;
+    height:700px;
+    position:absolute;top:0;left:0;z-index: -1000;
+   overflow: hidden;
+}
+#slides img{
+    width:100%;
+    height: 100%;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    overflow: hidden;
+}
+nav img{
+    width: 130px;
+    height: 45px;
+    overflow: hidden;
+    float: left;
+} 
+.logoTitle{
+     height: 40px; 
+    /*height: 0.4rem;*/
+    display: block;
+    font-size: 1.8em;
+    color: #fff;
+    float: left;
+     margin-left: 20px;   
+    /*margin-left: 0.2rem; */
+}
+.Logio, .Registered{
+   height: 40px; 
+  /*  height: 0.4rem;*/
+    display: block;
+    font-size: 1em;
+    color: #fff;
+    float: right;
+    margin-left: 20px;   
+}
+header{
+    height: 170px;
+    color: #fff;
+    font-size:5em;
+    text-align: center;
+    margin:10px 0;
+}
+header img{
+    width: 500px;
+    height: 150px;
+}
+/* center */
+.box{
+    width: 100%;
+    height: 700px;
+    /* position: fixed; */
+}
+.title_P{
+    text-align: center;
+    font-size: 19px;
+    font-style: italic;
+    color: #000;
+    font-weight: 500;
+    margin-top: 0px;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,121 @@
+body{
+    height: 1440px;
+    position: relative;
+}
+#slides{
+    height: 100%;
+   }
+   #slides img{
+    height: 100%;
+   }
+   .box{
+       height: 100%;
+   }
+    .box .center li:nth-child(6) {
+        background-image: url(../images/2-4.png);
+    }
+    .center ul{
+        margin: 85px auto 0;
+    }
+    .center2{
+        width: 90%;
+        height: 700px;
+        /* background: #fff; */
+        padding: 120px 5% 50px;
+        overflow: hidden;
+    }
+    .center2 .mainTitle{
+        text-align: center;
+        font-weight: 300; 
+    }
+    .center2 .mainTitle:nth-child(1){
+        font-size: 30px;
+        line-height: 50px;
+        /* color:#5296e7;  */
+    }
+    .center2 .mainTitle:nth-child(2){
+        font-size: 19px;
+        margin-bottom: 70px;
+    }
+    .center2 aside{
+        width: 35%;
+        height: 500px;
+        float: left;
+    }
+    .center2 .LeftInner{
+        width: 100%;
+        height: 100px;
+        margin: 35px 0;
+    }
+    .center2 .LeftInner:nth-child(1){  
+        background: url(../images/icon_01.png) -10px -30px no-repeat;
+    }
+    .center2 .LeftInner:nth-child(2){
+        background: url(../images/icon_02.png) -10px  -30px no-repeat;
+    }
+    .center2 .LeftInner:nth-child(3){
+        background: url(../images/icon_03.png)  -10px -30px no-repeat;
+    }
+    .center2 .LeftInner h3{
+        width: 77%;
+        margin: 20px 0 0 23%;
+        /* background:#fff; */
+        color: #716f6f;
+        line-height: 1.6em;
+    }
+    .center2 .LeftInner p{
+        width: 77%;
+        margin-left:23%;
+        /* background:#fff; */
+        line-height: 25px;
+        color: #969696;
+    }
+    .center2 .center2Right{
+        width: 60%;
+        height: 500px;
+        float: right;
+    }
+    .center2 .center2Right{
+        color: #716f6f;
+        line-height: 1.6em; 
+    }
+    .request{
+        width: 100%;
+        height: 120px;
+        margin: 20px 0;
+        border:1px solid #ccc;
+        background: #fff;
+    }
+    .center2 textarea{
+        width: 93%;
+        height: 100px;
+        margin: 10px 0;
+        font-size: 16px;
+        padding:20px 3% ;
+        border:1px solid #ccc;
+        resize:none;
+    }
+    .center2 .RightBtn{
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+    }
+    .center2 .RightBtn button{
+        width: 120px;
+        height: 40px;
+        background: #fff;
+        cursor: pointer;
+    }
+    .center2 .RightBtn button:nth-child(1){    
+        font-size: 15px;
+        float: left;
+        border:2px solid #34c1e4;
+        color: #34c1e4;
+        background:#fff url(../images/upload.png) 5px center no-repeat;
+    }
+    .center2 .RightBtn button:nth-child(2){
+        border:2px solid #3f7bc3;
+        font-size: 16px;
+        float:right;
+        color: #3f7bc3;
+    }
